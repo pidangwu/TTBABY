@@ -917,6 +917,13 @@ section{
 	padding-bottom: 0;
 }
 
+#intro .kidvenue-pic{
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 #kidvenue-button img{
 	width: 70%;
 }
