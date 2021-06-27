@@ -189,7 +189,7 @@ section{
 		position: relative;
 	}
 
-	.header-search button{
+	.header-search a{
 		position: absolute;
 		right: 5px;
 		top: 8px;
