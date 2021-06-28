@@ -188,8 +188,13 @@ section{
 
 	.header-search a{
 		position: absolute;
-		right: 5px;
-		top: 8px;
+		right: 0px;
+		top: 1px;
+	}
+
+	.header-search .tags-group a{
+		position: initial;
+		margin: 5px 2px;
 	}
 
 	.search-dropdown{
