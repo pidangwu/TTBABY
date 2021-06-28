@@ -101,11 +101,8 @@ section{
 }
 
 .bg-img-03{
-	padding: 160px 0;
-	background-image: url(../assets/img/1692-3@2x.png);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	padding: 50px 0;
+	background-color: #e9f2a1;
 }
 
 
