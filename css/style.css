@@ -616,7 +616,7 @@ section{
 
 
 .video-slider--item .card .card-body{
-	padding: 20px 3px;
+	padding: 10px 3px;
 }
 
 
@@ -627,9 +627,10 @@ section{
 		.video-slider--item---pic a{
 			display: inline-block;
 			width: 100%;
-			padding-top: calc(100% * 680 / 1240);
+			padding-top: calc(100% * 720 / 1280);
 			height: 0;
 			position: relative;
+			overflow: h;
 
 		}
 
