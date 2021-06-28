@@ -775,6 +775,10 @@ section{
 	font-size: 16px;
 }
 
+#filter .filter-forms label{
+	margin-bottom: 0;
+}
+
 #filter .form-group{
 	margin-bottom: 0;
 }
