@@ -518,6 +518,7 @@ section{
 			padding-top: calc(100% * 680 / 1240);
 			height: 0;
 			position: relative;
+			overflow: hidden;
 
 		}
 
@@ -579,6 +580,7 @@ section{
 			padding-top: calc(100% * 680 / 1240);
 			height: 0;
 			position: relative;
+			overflow: hidden;
 
 		}
 
@@ -630,7 +632,7 @@ section{
 			padding-top: calc(100% * 720 / 1280);
 			height: 0;
 			position: relative;
-			overflow: h;
+			overflow: hidden;
 
 		}
 
@@ -1012,6 +1014,7 @@ section{
 			padding-top: calc(100% * 1240 / 1240);
 			height: 0;
 			position: relative;
+			overflow: hidden;
 
 		}
 
