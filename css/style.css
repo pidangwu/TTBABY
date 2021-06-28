@@ -578,7 +578,7 @@ section{
 			height: 0;
 			position: relative;
 			overflow: hidden;
-
+			border-radius: 15px;
 		}
 
 			.childcare-slider--item---pic a img{
@@ -1012,7 +1012,7 @@ section{
 			height: 0;
 			position: relative;
 			overflow: hidden;
-
+			border-radius: 15px;
 		}
 
 			.resource-item--pic a img{
