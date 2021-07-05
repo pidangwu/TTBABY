@@ -113,7 +113,6 @@ section{
 }
 
 
-
 /*-------------------------*/
 /* $parallax graphic
 ---------------------------*/
@@ -987,6 +986,23 @@ section{
 
 .article-downloads a{
 	margin: 5px 2px;
+}
+
+
+#article ul, #article ol{
+	margin: 10px 0;
+}
+
+#article ul li{
+	list-style-type: disc;
+	text-align: -webkit-match-parent;
+	margin: 5px 0px 5px 30px;
+}
+
+#article ol li{
+	list-style: list-item;
+	text-align: -webkit-match-parent;
+	margin: 5px 0px 5px 30px;
 }
 
 /* article */

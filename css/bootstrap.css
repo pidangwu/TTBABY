@@ -127,7 +127,10 @@ dd {
 }
 
 blockquote {
-  margin: 0 0 1rem;
+  margin: 0 0 10px 0px;
+  padding-left: 20px;
+  border-left: 4px solid #9DAC2D;
+
 }
 
 b,
@@ -10182,6 +10185,14 @@ button.bg-dark:focus {
 
 .font-italic {
   font-style: italic !important;
+}
+
+.text-underline{
+  text-decoration: underline!important;
+}
+
+.text-line-through{
+  text-decoration: line-through!important;
 }
 
 .text-white {
