@@ -182,6 +182,25 @@
       <div class="text-center">
         <h3 class="page-title">家長托育資源專區</h3>
       </div>
+
+      <div class="text-center">
+        <a href="#" class="my-2 btn btn-outline-primary">托嬰中心查詢</a>
+        <a href="#" class="my-2 btn btn-outline-primary">公托家園查詢</a>
+        <div class="btn-group dropdown">
+          <a class="dropdown-toggle btn btn-outline-primary" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">臨時托育資源</a>
+          <div class="dropdown-menu text-center shadow">
+            <a class="dropdown-item" href="#">社福中心</a>
+            <hr class="my-2">
+            <div class="text-black-50" href="#">親子館</div>
+            <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">南迴線區親子館</a>
+            <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">臺東市區親子館</a>
+            <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">縱谷線區親子館</a>
+            <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">海岸線區親子館</a>
+            <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">政府太麻里親子館</a>
+          </div>
+        </div>
+        <a href="#" class="my-2 btn btn-outline-primary">補助與規範</a>
+      </div>
       
 
       <!-- Start filter -->
@@ -190,187 +209,158 @@
         <div class="container">
           <div class="card shadow">
             <div class="card-body">
-              <div class="row">
-                <div class="col-md-2">
-                  <div class="nav flex-column nav-pills text-center mb-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <li class="nav-item mb-2">
-                      <a class="nav-link active" href="#">托嬰中心查詢</a>
-                    </li>
-                    <li class="nav-item mb-2">
-                      <a class="nav-link" href="#">公托家園查詢</a>
-                    </li>
-                    <li class="nav-item mb-2 dropdown dropright">
-                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">臨時托育資源</a>
-                      <div class="dropdown-menu text-center shadow">
-                        <a class="dropdown-item" href="#">社福中心</a>
-                        <hr class="my-2">
-                        <div class="text-black-50" href="#">親子館</div>
-                        <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">南迴線區親子館</a>
-                        <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">臺東市區親子館</a>
-                        <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">縱谷線區親子館</a>
-                        <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">海岸線區親子館</a>
-                        <a href="careservice.html" class="d-block mx-2 btn btn-outline-primary my-2">政府太麻里親子館</a>
-                      </div>
-                    </li>
-                    <li class="nav-item mb-2">
-                      <a class="nav-link" href="#">補助與規範</a>
-                    </li>
-                  </div>
-                </div>
 
-                <div class="col-md-10">
-                  <!-- Start filter-forms-->
-                  <div class="filter-forms">
+                
+
+                <!-- Start filter-forms-->
+                <div class="filter-forms">
+                  
+                  <!-- Start tab -->
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="location-tab" data-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="true">送托地點</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="distance-tab" data-toggle="tab" href="#distance" role="tab" aria-controls="profile" aria-selected="false">送托距離</a>
+                    </li>
+                  </ul>
                     
-                    <!-- Start tab -->
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                      <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="location-tab" data-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="true">送托地點</a>
-                      </li>
-                      <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="distance-tab" data-toggle="tab" href="#distance" role="tab" aria-controls="profile" aria-selected="false">送托距離</a>
-                      </li>
-                    </ul>
+                  <div class="tab-content mb-3" id="myTabContent">
+                    <div class="tab-pane fade show active" id="location" role="tabpanel" aria-labelledby="location-tab">
+                      <div class="d-flex"><label for="inputAddress">托育地點</label></div>
+                      <div class="d-flex align-items-center">
+                        <div class="p-1">
+                          <div class="form-group">
+                            <select class="custom-select">
+                              <option disabled selected>請選擇</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="p-1 flex-grow-1">
+                          <div class="form-group">
+                            <input type="address" class="form-control" id="inputAddress" aria-describedby="" placeholder="請輸入路段">
+                          </div>
+                        </div>
+                      </div>
                       
-                    <div class="tab-content mb-3" id="myTabContent">
-                      <div class="tab-pane fade show active" id="location" role="tabpanel" aria-labelledby="location-tab">
-                        <div class="d-flex"><label for="inputAddress">托育地點</label></div>
-                        <div class="d-flex align-items-center">
-                          <div class="p-1">
-                            <div class="form-group">
-                              <select class="custom-select">
-                                <option disabled selected>請選擇</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="p-1 flex-grow-1">
-                            <div class="form-group">
-                              <input type="address" class="form-control" id="inputAddress" aria-describedby="" placeholder="請輸入路段">
-                            </div>
+                    </div>
+                    <div class="tab-pane fade" id="distance" role="tabpanel" aria-labelledby="distance-tab">
+                      <div class="d-flex"><label for="inputAddress">托育地點</label></div>
+                      <div class="d-flex align-items-center">
+                        <div class="p-1">
+                          <div class="form-group">
+                            <select class="custom-select">
+                              <option disabled selected>請選擇</option>
+                              <option value="1">1公里</option>
+                              <option value="2">2公里</option>
+                              <option value="3">3公里</option>
+                              <option value="3">5公里</option>
+                              <option value="3">10公里</option>
+                            </select>
                           </div>
                         </div>
-                        
-                      </div>
-                      <div class="tab-pane fade" id="distance" role="tabpanel" aria-labelledby="distance-tab">
-                        <div class="d-flex"><label for="inputAddress">托育地點</label></div>
-                        <div class="d-flex align-items-center">
-                          <div class="p-1">
-                            <div class="form-group">
-                              <select class="custom-select">
-                                <option disabled selected>請選擇</option>
-                                <option value="1">1公里</option>
-                                <option value="2">2公里</option>
-                                <option value="3">3公里</option>
-                                <option value="3">5公里</option>
-                                <option value="3">10公里</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="p-1 flex-grow-1">
-                            <div class="form-group">
-                              <input type="address" class="form-control" id="inputAddress" aria-describedby="" placeholder="請輸入路段">
-                            </div>
+                        <div class="p-1 flex-grow-1">
+                          <div class="form-group">
+                            <input type="address" class="form-control" id="inputAddress" aria-describedby="" placeholder="請輸入路段">
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- End tab -->
-                    <div class="d-flex mt-3"><label>托育類型</label></div>
-                    <div class="d-flex align-items-center py-1">
-                      <div class="p-1 flex-fill">
-                        <div class="form-group">
-                          <select class="custom-select">
-                            <option disabled selected>托育類型</option>
-                            <option value="1">在家托育</option>
-                            <option value="2">到宅托育</option>
-                            <option value="3">臨時托育</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="p-1 flex-fill">
-                        <div class="form-group">
-                          <select class="custom-select">
-                            <option disabled selected>時段</option>
-                            <option value="1">半日（6小時/日）</option>
-                            <option value="2">日間（6-12小時/日）</option>
-                            <option value="3">全日（16小時以上/日）</option>
-                            <option value="4">夜間（晚上8時-翌晨8時）</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="p-1 flex-fill">
-                        <div class="form-group">
-                          <select class="custom-select">
-                            <option disabled selected>地點</option>
-                            <option value="1">親子館</option>
-                            <option value="2">社福中心</option>
-                            <option value="3">到宅臨托</option>
-                            <option value="4">在宅臨托</option>
-                            <option value="5">其他</option>
-                          </select>
-                        </div>
-                      </div>
-
-                    </div>
-                    <!-- End d-flex -->
-                    <div class="d-flex mt-3"><label for="date">預計托育時間</label></div>
-                    <div class="d-flex align-items-center py-1">
-                      <div class="p-1">
-                        <div class="form-group">
-                          <input id="date" type="date">
-                        </div>
-                      </div>
-                      <div class="p-1 flex-fill">
-                        <div class="form-group">
-                          <select class="custom-select">
-                            <option selected>時間</option>
-                            <option value="1">1小時</option>
-                            <option value="2">2小時</option>
-                            <option value="3">3小時</option>
-                            <option value="4">4小時</option>
-                            <option value="5">5小時</option>
-                          </select>
-                        </div>
+                  </div>
+                  <!-- End tab -->
+                  <div class="d-flex mt-3"><label>托育類型</label></div>
+                  <div class="d-flex align-items-center py-1">
+                    <div class="p-1 flex-fill">
+                      <div class="form-group">
+                        <select class="custom-select">
+                          <option disabled selected>托育類型</option>
+                          <option value="1">在家托育</option>
+                          <option value="2">到宅托育</option>
+                          <option value="3">臨時托育</option>
+                        </select>
                       </div>
                     </div>
-                    <!-- End d-flex -->
 
-                    <div class="d-flex mt-3">照片提供</div>
-                    <div class="d-flex align-items-center py-1">
-                      <div class="p-1 flex-fill">
-                        <div class="form-group">
-                          <select class="custom-select">
-                            <option selected>不限制</option>
-                            <option value="1">保母照片</option>
-                            <option value="2">環境照片</option>
-                            <option value="3">保母與環境照片</option>
-                          </select>
-                        </div>
+                    <div class="p-1 flex-fill">
+                      <div class="form-group">
+                        <select class="custom-select">
+                          <option disabled selected>時段</option>
+                          <option value="1">半日（6小時/日）</option>
+                          <option value="2">日間（6-12小時/日）</option>
+                          <option value="3">全日（16小時以上/日）</option>
+                          <option value="4">夜間（晚上8時-翌晨8時）</option>
+                        </select>
                       </div>
                     </div>
-                    <!-- End d-flex -->
-                    <div class="d-flex mt-3">準公共化保母</div>
-                    <div class="d-flex align-items-center py-1">
-                      <div class="p-1 flex-fill">
-                        <div class="form-group">
-                          <select class="custom-select">
-                            <option disabled selected>不限制</option>
-                            <option value="1">是</option>
-                            <option value="2">否</option>
-                          </select>
-                        </div>
+
+                    <div class="p-1 flex-fill">
+                      <div class="form-group">
+                        <select class="custom-select">
+                          <option disabled selected>地點</option>
+                          <option value="1">親子館</option>
+                          <option value="2">社福中心</option>
+                          <option value="3">到宅臨托</option>
+                          <option value="4">在宅臨托</option>
+                          <option value="5">其他</option>
+                        </select>
                       </div>
                     </div>
-                    <!-- End d-flex -->
 
                   </div>
+                  <!-- End d-flex -->
+                  <div class="d-flex mt-3"><label for="date">預計托育時間</label></div>
+                  <div class="d-flex align-items-center py-1">
+                    <div class="p-1">
+                      <div class="form-group">
+                        <input id="date" type="date">
+                      </div>
+                    </div>
+                    <div class="p-1 flex-fill">
+                      <div class="form-group">
+                        <select class="custom-select">
+                          <option selected>時間</option>
+                          <option value="1">1小時</option>
+                          <option value="2">2小時</option>
+                          <option value="3">3小時</option>
+                          <option value="4">4小時</option>
+                          <option value="5">5小時</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End d-flex -->
+
+                  <div class="d-flex mt-3">照片提供</div>
+                  <div class="d-flex align-items-center py-1">
+                    <div class="p-1 flex-fill">
+                      <div class="form-group">
+                        <select class="custom-select">
+                          <option selected>不限制</option>
+                          <option value="1">保母照片</option>
+                          <option value="2">環境照片</option>
+                          <option value="3">保母與環境照片</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End d-flex -->
+                  <div class="d-flex mt-3">準公共化保母</div>
+                  <div class="d-flex align-items-center py-1">
+                    <div class="p-1 flex-fill">
+                      <div class="form-group">
+                        <select class="custom-select">
+                          <option disabled selected>不限制</option>
+                          <option value="1">是</option>
+                          <option value="2">否</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End d-flex -->
                 </div>
-              </div> <!-- End row -->
               <div class="text-center my-3">
                 <button class="btn btn-primary" type="submit" alt="確認">確認</button>
               </div>
