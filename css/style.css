@@ -218,7 +218,12 @@ section{
 				font-size: 14px;
 			}
 
+	@media (max-width: 992px){
+		.header-search a{
+			top: 8px;
+		}
 
+	}
 
 	/* top bar */
 
