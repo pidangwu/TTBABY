@@ -1996,7 +1996,7 @@ pre code {
     border: 0;
   }
   .table th, .table td{
-    padding: 0.3rem;
+    padding: 1rem 0.3rem;
   }
 }
 
