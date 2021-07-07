@@ -38,6 +38,9 @@ section{
 
 .tags-group a{
 	margin: 5px 2px;
+	font-size: 12px;
+	background-color: transparent;
+	padding: 2px 4px;
 }
 
 .card .card-body .badge{
@@ -194,7 +197,7 @@ section{
 
 	.header-search .tags-group a{
 		position: initial;
-		margin: 5px 2px;
+		margin: 4px 1px;
 	}
 
 	.search-dropdown{
@@ -1080,6 +1083,22 @@ section{
 		padding: 0;
 	}
 }
+
+
+/*-------------------------*/
+/* $downloads
+---------------------------*/
+#downloads{
+	padding-top: 0;
+}
+
+#downloads table{
+	min-width: 650px;
+	max-width: 900px;
+	margin: 1rem auto;
+}
+
+
 
 
 
