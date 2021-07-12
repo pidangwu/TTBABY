@@ -54,6 +54,12 @@ section{
 	font-weight: 400;
 }
 
+.table-responsive .table{
+	min-width: 650px;
+	max-width: 900px;
+	margin: 1rem auto;
+}
+
 @media (min-width: 1440px){
 	.container{
 		max-width: 100%!important;
@@ -845,9 +851,13 @@ section{
     font-weight: 500;
 }
 
-.reservation-table {
-	margin-bottom: 20px;
+
+.reservation-table .table{
+	min-width: initial;
+	max-width: initial;
+	margin: 0 0 20px 0;
 }
+
 
 	.reservation-table thead th{
 		color: #9DAC2D;
@@ -1083,22 +1093,6 @@ section{
 		padding: 0;
 	}
 }
-
-
-/*-------------------------*/
-/* $downloads
----------------------------*/
-#downloads{
-	padding-top: 0;
-}
-
-#downloads table{
-	min-width: 650px;
-	max-width: 900px;
-	margin: 1rem auto;
-}
-
-
 
 
 
