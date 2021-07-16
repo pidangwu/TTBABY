@@ -844,16 +844,20 @@ section{
 
 [class^="block-"]{
     display: block;
-    border-radius: 8px;
-	padding: 10px 20px;
+    border-radius: 0px;
 	text-align: center;
-	font-size: 18px;
-    font-weight: 500;
+	font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.reservation-table{
+	overflow-x: scroll;
 }
 
 
 .reservation-table .table{
-	min-width: initial;
+	min-width: 900px;
 	max-width: initial;
 	margin: 0 0 20px 0;
 }
@@ -862,6 +866,7 @@ section{
 	.reservation-table thead th{
 		color: #9DAC2D;
 		width: 12.5%;
+		padding: 0;
 	}
 
 	.reservation-table .block-available{
@@ -873,10 +878,23 @@ section{
 	}
 
 	.reservation-table .block-closed{
-		background-color: #D96D6D;
+		background-color: #ccc;
 		cursor: unset;
 		color: #fff;
-		font-weight: 300;
+	}
+
+	.reservation-table th{
+		position: relative;
+		padding: 30px 10px;
+	}
+
+	.reservation-table th .calendar-date{
+		font-size: 16px;
+		color: #535529;
+		font-weight: 500;
+		position: absolute;
+		left: 10px;
+		top: 10px;
 	}
 
 @media (max-width: 768px){
