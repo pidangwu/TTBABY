@@ -186,6 +186,46 @@
         <a href="careservice.html" class="my-2 mx-2 btn btn-primary shadow">借閱規範 <i class="bi bi-arrow-right-circle-fill"></i></a>
       </div>
       <section id="resourceborrow">
+        <!-- Modal -->
+        <div class="modal fade" id="resourceModal" tabindex="-1" aria-labelledby="resourceModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="resourceModalLabel">英文字母拼圖</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="resource-item--pic mb-2">
+                      <img class="w-100 rounded" src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div>
+                      <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Eveniet, ea.</p>
+                    </div>
+                    <div><small>類別｜語言</small></div>
+                    <div><small>適合年齡｜2-5歲</small></div>
+                    <div><small>地點｜南迴線區親子館</small></div>
+                    <div><small>數量｜10</small></div>
+                    <div><small>可借閱數｜10</small></div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer text-center">
+                <div class="mx-auto">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                  <button type="button" class="btn btn-primary">我要借閱</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <div class="container">
 
           <div class="d-flex align-content-start flex-wrap">
@@ -229,11 +269,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -248,11 +288,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -267,11 +307,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -286,11 +326,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -305,11 +345,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -324,11 +364,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -343,11 +383,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -362,11 +402,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -381,11 +421,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -400,11 +440,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -419,11 +459,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -438,11 +478,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -457,11 +497,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -476,11 +516,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -495,11 +535,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -514,11 +554,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -533,11 +573,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -552,11 +592,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -571,11 +611,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
@@ -590,11 +630,11 @@
               <div class="card text-center">
                 <div class="card-body">
                   <div class="resource-item--pic mb-2">
-                    <a href="#">
+                    <a href="#" data-toggle="modal" data-target="#resourceModal">
                       <img src="https://demos.bakerwebdev.net/childhood/wp-content/uploads/sites/11/2020/03/child-play-alphabet-puzzle-5AFV6XC-300x300.jpg" alt="教玩具照片">
                     </a>
                   </div>
-                  <h5>英文字母拼圖</h5>
+                  <a href="#" data-toggle="modal" data-target="#resourceModal"><h5>英文字母拼圖</h5></a>
                   <div><small>類別｜語言</small></div>
                   <div><small>適合年齡｜2-5歲</small></div>
                   <div><small>地點｜南迴線區親子館</small></div>
