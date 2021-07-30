@@ -754,6 +754,10 @@ section{
 		width: 100%;
 	}
 
+.footer-icon{
+	width: 28px;
+}
+
 @media (max-width: 768px){
 	#footer{
 		text-align: center;
