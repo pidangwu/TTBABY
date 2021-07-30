@@ -274,50 +274,129 @@
         <div class="img-bridge"><img src="assets/img/1695@2x.png" alt="鐵軌"></div>
       </div>
 
+      <!-- termsModal -->
+        <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header mx-auto text-center">
+                <h5 class="modal-title" id="termsModalLabel">TTBABY 臺東遇見幸福<br>民眾意見回饋</h5>
+              </div>
+              <div class="modal-body">
+                請先詳閱以下同意條款：
+                <ol class="mt-3">
+                  <li>為確保您的電子信箱未遭他人冒用，確實可收到本信箱之回信，系統會自動發送一封「確認信」，請打開並點選信中的連結網址，完成確認後，我們將儘速依序處理您的來信。凡未經您確認的來信，本信箱將不予受理。</li>
+                  <li>每次來信請盡量以一項事件為主，以利案件處理，若有多項事件，請分別發送。另就同一事件，如無新事證，而重覆來信者，本信箱將為您併案處理，不再另行寄發併案通知。</li>
+                  <li>來信內容講求簡潔、明確，並以真實情形為限，本信箱不受理非理性情緒發洩、謾罵、廣告及惡意檢舉之郵件。又為保障您及他人權益，如有不實陳情涉及刑事、民事法律問題，應負相關責任。</li>
+                </ol>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    我同意
+                  </label>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" alt="下一步" data-toggle="modal" data-target="#formModal">下一步</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- formModal -->
+        <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="modalName">＊姓名</label>
+                    <input type="name" class="form-control" id="modalName">
+                  </div>
+                  <div class="form-group">
+                    <label for="modalPhone">＊聯絡電話</label>
+                    <input type="phone" class="form-control" id="modalPhone">
+                  </div>
+                  <div class="form-group">
+                    <label for="modalEmail">＊電子信箱</label>
+                    <input type="email" class="form-control" id="modalEmail">
+                  </div>
+                  <div class="form-group">
+                    <label for="modalCatagory">＊問題類別</label>
+                    <input type="text" class="form-control" id="modalCategory">
+                  </div>
+                  <div class="form-group">
+                    <label for="formTextarea">意見回饋</label>
+                    <textarea class="form-control" id="formTextarea" rows="3"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">送出並驗證EMAIL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       <footer id="footer">
         <div class="bg-secondary py-5">
          <div class="container-fluid">
             <div class="row">
               <div class="col-lg-2 col-md-12 my-2">
-                <h6>隱私權宣告</h6>
+                <h6>育兒資源專區</h6>
                 <ul>
-                  <li><a href="#">資訊安全</a></li>
-                  <li><a href="#">政府網站資料開放宣告</a></li>
+                  <li><a href="babyresource.html#column">育兒專欄</a></li>
+                  <li><a href="#">育兒生日禮</a></li>
+                  <li><a href="#">部落遊戲屋</a></li>
+                  <li><a href="babyresource.html#allowance">補助與津貼資訊</a></li>
+                  <li><a href="babyresource.html#map">資源地圖</a></li>
                 </ul>
               </div>
-              <div class="col-lg-5 col-md-12 my-2">
-                <h6>網站地圖</h6>
-                <div class="row">
-                  <div class="col-lg-3 col-md-12">
-                    <ul>
-                      <li><a href="#">關於我們</a></li>
-                      <li><a href="#">常見問題</a></li>
-                      <li><a href="#">表單下載</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-4 col-md-12">
-                    <ul>
-                      <li><a href="#">新知與活動</a></li>
-                      <li><a href="#">親子館專區</a></li>
-                      <li><a href="#">育兒資源專區</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-5 col-md-12">
-                    <ul>
-                      <li><a href="#">托育人員資源專區</a></li>
-                      <li><a href="#">家長托育資源專區</a></li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="col-lg-2 col-md-12 my-2">
+                <h6>親子館專區</h6>
+                <ul>
+                  <li><a href="kidsreservation.html">入館預約</a></li>
+                  <li><a href="resourceborrow.html">教玩具借閱</a></li>
+                  <li><a href="kidvenue.html#intro">南迴線區親子館</a></li>
+                  <li><a href="kidvenue.html#intro">臺東市區親子館</a></li>
+                  <li><a href="kidvenue.html#intro">海岸線區親子館</a></li>
+                  <li><a href="kidvenue.html#intro">政府太麻里親子館</a></li>
+                </ul>
               </div>
               <div class="col-lg-2 col-md-12 my-2">
-                <h6><a href="#">臺東縣政府網站</a></h6>
-                <h6><a href="#">臺東縣社會處網站</a></h6>
+                <h6>家長托育資源專區</h6>
+                <ul>
+                  <li><a href="parentresource.html#filter">找尋托育人員</a></li>
+                  <li><a href="#">托嬰中心查詢</a></li>
+                  <li><a href="#">公托家園查詢</a></li>
+                  <li><a href="#">社會福利中心</a></li>
+                  <li><a href="#">補助與規範</a></li>
+                </ul>
               </div>
-              <div class="col-lg-3 col-md-12 my-2">
-                <h6><img src="assets/img/icon_fb.svg" alt="FB"><a href="#"> 臺東縣社會處</a></h6>
-                <h6><img src="assets/img/icon_line.svg" alt="LINE"><a href="#"> 臺東縣政府</a></h6>
-                <h6><img src="assets/img/icon_line.svg" alt="LINE"><a href="#"> TTBABY 臺東育見幸福</a></h6>
+              <div class="col-lg-2 col-md-12 my-2">
+                <h6>托育人員專區</h6>
+                <ul>
+                  <li><a href="#">居家托育中心</a></li>
+                  <li><a href="#">托育人員登記</a></li>
+                  <li><a href="childcaring.html#childcare-knowledge">新知分享</a></li>
+                  <li><a href="#">居家托育人員訓練</a></li>
+                  <li><a href="#">托嬰中心人員訓練</a></li>
+                  <li><a href="#">相關規範</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-12 my-2">
+                <h6>服務園區</h6>
+                <ul>
+                  <li><a href="FAQ.html#FAQ">常見問題</a></li>
+                  <li><a href="#">表單下載</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#termsModal">意見信箱</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-12 my-2">
+                <h6><img class="footer-icon" src="assets/img/icon_web.svg" alt="website"><a href="https://www.taitung.gov.tw/Index.html" target="_blank"> 台東縣政府官網</a></h6>
+                <h6><img class="footer-icon" src="assets/img/icon_web.svg" alt="website"><a href="https://taisoc.taitung.gov.tw/WebSite/Page/index.aspx" target="_blank"> 台東縣社會處官網</a></h6>
+                <h6><img class="footer-icon" src="assets/img/icon_fb.svg" alt="FB"><a href="https://www.facebook.com/%E5%8F%B0%E6%9D%B1%E7%B8%A3%E6%94%BF%E5%BA%9C%E7%A4%BE%E6%9C%83%E8%99%95-205018522851510/" target="_blank"> 臺東縣社會處</a></h6>
+                <h6><img class="footer-icon" src="assets/img/icon_line.svg" alt="LINE"><a href="https://liff.line.me/1645278921-kWRPP32q?accountId=taitung.gov&openerPlatform=native&openerKey=urlSchema%3Aexternal#mst_challenge=kdV_Y3Am7VmyA2i4IMAw8HkoOBFKSnvfarb23Z4gRYA" target="_blank"> 臺東縣政府</a></h6>
+                <h6><img class="footer-icon" src="assets/img/icon_line.svg" alt="LINE"><a href="#"> TTBABY 臺東育見幸福</a></h6>
               </div>
             </div>
           </div> 
@@ -333,7 +412,8 @@
 
                 <div>兒少及婦女福利科  電話：089-341373   傳真：089-349773</div>
                 <div>本站由臺東縣政府社會處負責維護</div>
-                <div>版權所有  Copyright © 2020 All rights reserved.</div>
+                <div>版權所有 Copyright © 2020 All rights reserved.</div>
+                <div><a href="#" class="text-white">隱私權宣告</a>｜<a href="#" class="text-white">資訊安全</a>｜<a href="#" class="text-white">政府網站資料開放宣告</a></div>
               </div>
               <div class="col-md-3">
                 <p>訪客總數：<span>851925</span></p>
