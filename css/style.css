@@ -60,6 +60,11 @@ section{
 	margin: 1rem auto;
 }
 
+.modal ol, .modal  ul, .modal  dl, .modal li{
+	list-style: auto;
+	padding-left: inherit;
+}
+
 @media (min-width: 1440px){
 	.container{
 		max-width: 100%!important;
