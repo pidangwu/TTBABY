@@ -65,6 +65,20 @@ section{
 	padding-left: inherit;
 }
 
+.page-intro{
+	margin-bottom: 80px;
+	position: relative;
+}
+
+.page-intro .card{
+	border: 2px solid #C8D65F;
+}
+
+.page-intro .card-body{
+	padding: 3rem;
+}
+
+
 @media (min-width: 1440px){
 	.container{
 		max-width: 100%!important;
@@ -150,6 +164,9 @@ section{
 .graphic_1696{bottom: -10%;left: -5%;} /*左雲*/
 .graphic_1697{bottom: -10%;right: -1%;}	/*右雲*/
 
+.graphic_1917{bottom: -20%;left: -5%; z-index: 100;} /*左雲*/
+.graphic_1921{bottom: -25%;right: -5%; z-index: 100;}	/*右雲*/
+
 
 @media (max-width: 768px){
 	.graphic_1479{width: 50%;bottom: -10%;right: 1%;} /*奶瓶*/
@@ -161,6 +178,9 @@ section{
 
 	.graphic_1696{width: 30%;bottom: -10%;left: 0%;} /*左雲*/
 	.graphic_1697{width: 30%;bottom: -10%;right: 0%;}	/*右雲*/
+
+	.graphic_1917{bottom: -20%;left: -10%; z-index: 100;} /*左雲*/
+.graphic_1921{bottom: -25%;right: -5%; z-index: 100;}	/*右雲*/
 }
 
 
