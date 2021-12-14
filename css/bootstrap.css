@@ -18,7 +18,8 @@
   --white: #fff;
   --gray: #C8D65F;
   --gray-dark: #212529;
-  --primary: #9DAC2D;
+  /*--primary: #9DAC2D;*/
+  --primary: #6f7829;
   --secondary: #C8D65F;
   --success: #198754;
   --info: #0dcaf0;
@@ -2051,7 +2052,7 @@ pre code {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2609,7 +2610,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #565e64;
+  background-color: #0b5ed7;
   border-color: #9DAC2D;
   box-shadow: 0 0 0 0.25rem rgba(49, 132, 235, 0.5);
 }
@@ -2623,7 +2624,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #565e64;
+  background-color: #0062cc;
   border-color: #005cbf;
 }
 
@@ -3431,7 +3432,7 @@ input[type="button"].btn-block {
 
 .dropdown-item {
   display: block;
-  font-size: 16px;
+  font-size: 1em;
   width: 100%;
   padding: 5px;
   clear: both;
@@ -3972,7 +3973,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -4451,7 +4452,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 24px;
+  font-size: 1em;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -4862,7 +4863,7 @@ input[type="button"].btn-block {
 
 .card-text{
   color: #535529;
-  font-size: 16px;
+  font-size: 1em;
   height: 70px;
   overflow: hidden;
 }
@@ -4873,7 +4874,7 @@ input[type="button"].btn-block {
 .card-link{
   color: #9DAC2D;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 600;
 }
 .card-link:hover {
@@ -5079,7 +5080,7 @@ input[type="button"].btn-block {
   list-style: none;
   border-radius: 0.25rem;
   color: #707070;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .breadcrumb-item + .breadcrumb-item {
