@@ -10,7 +10,7 @@
 	position: fixed;
 	right: 20px;
 	bottom: 20px;
-	background-color: #9DAC2D;
+	background-color: #6C7219;
 	color: #fff;
 	font-size: 1.8em;
 	z-index: 999;
@@ -26,7 +26,7 @@
 		position: fixed;
 		right: 10px;
 		bottom: 10px;
-		background-color: #9DAC2D;
+		background-color: #6C7219;
 		color: #fff;
 		font-size: 1.6em;
 		z-index: 999;
@@ -53,12 +53,25 @@ section{
 	position: relative;
 	margin-bottom: 20px;
 }
+
+.section-title h4{
+	position: absolute;
+    bottom: 11px;
+    left: 50%;
+    margin: 0;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 	.section-title img{
 		height: 70px;
 	}
 
 	.section-title h2{
-		color: #9DAC2D;
+		color: #6C7219;
 		position: absolute;
 		bottom: 6px;
 		left: 50%;
@@ -846,11 +859,11 @@ section{
 
 #filter .nav-tabs .nav-link{
 	border-radius: 15px 15px 0 0;
-	border: 1px solid #E2EB9B;
+	border: 1px solid #EFF4B5;
 }
 
 #filter .nav-link.active{
-	background-color: #E2EB9B;
+	background-color: #EFF4B5;
 }
 
 #filter .filter-forms{
@@ -870,7 +883,7 @@ section{
 	}
 
 #filter .tab-content{
-	background-color: #E2EB9B;
+	background-color: #EFF4B5;
 	padding: 20px;
 	border-radius: 0 0 15px 15px;
 }
@@ -927,7 +940,7 @@ section{
 
 
 	.reservation-table thead th{
-		color: #9DAC2D;
+		color: #6C7219;
 		width: 12.5%;
 		padding: 0;
 	}
@@ -941,7 +954,7 @@ section{
 	}
 
 	.reservation-table .block-closed{
-		background-color: #ccc;
+		background-color: #6a6a6a;
 		cursor: unset;
 		color: #fff;
 	}
@@ -1075,12 +1088,12 @@ section{
 }
 
 .article-date, .article-view{
-	color: #909090;
+	color: #707070;
 	font-size: 1em;
 }
 
 .article-link{
-	color: #9DAC2D;
+	color: #6C7219;
 	text-decoration: underline;
 }
 
